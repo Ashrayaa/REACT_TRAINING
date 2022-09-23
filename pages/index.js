@@ -21,16 +21,10 @@ export default function Home() {
         </h2>
           <br></br>
         <div>
-          <button className={styles.buttonproject}><a href="http://localhost:3000/card">A Card - 1</a></button>
-          <button className={styles.buttonproject}><a href="http://localhost:3000/signup">Signup Page - 2</a></button>
-          <button className={styles.buttonproject}><a href="http://localhost:3000/login">Login Page - 3</a></button>
-          <button className={styles.buttonproject}>4</button>
-          <button className={styles.buttonproject}>5</button>
-          <button className={styles.buttonproject}>6</button>
-          <button className={styles.buttonproject}>7</button>
-          <button className={styles.buttonproject}>8</button>
-          <button className={styles.buttonproject}>9</button>
-          <button className={styles.buttonproject}>10</button>
+          <button className={styles.buttonproject}><a href="http://localhost:3000/signup">Signup Page - 1</a></button>
+          <button className={styles.buttonproject}><a href="http://localhost:3000/login">Login Page - 2</a></button>
+          <button className={styles.buttonproject}><a href="http://localhost:3000/otp">Verify OTP Page - 3</a></button>
+          
         </div>
 
       </main>
