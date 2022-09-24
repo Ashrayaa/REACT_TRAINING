@@ -33,7 +33,7 @@ function signup() {
                     <p class="my-1 font-semibold">Select class</p>
                     <input class="w-32 h-10  rounded-3xl border-2 border-solid border-black-200 border-[#00C285]" type="button" value="Plus One"></input>
                     <input class="w-32 h-10 mx-2 my-4 rounded-3xl border-2 border-solid border-black-200" type="button" value="Plus Two"></input>
-                   <button className={styles.signbtn}>Signup</button>
+                   <button class=" text-red-500 font-base font-bold text-lg border-2 bg-[#00C285] lg:text-white w-80 h-14 rounded-lg"><a href="http://localhost:3000/login">Signup</a></button>
                    <div class="flex flex-row pt-4">
                         <div className='border h-0 w-8 border-black bg-black mx-2 my-2'></div>
                         <p class="text-xs font-semibold">Already have an account? <a href="" class="text-[#00C285]">Login</a></p>
