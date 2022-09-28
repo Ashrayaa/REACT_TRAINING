@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import otpimg from "/public/girl.png";
-import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import Verifyotpform from "/pages/components/Verifyotpform"
 
