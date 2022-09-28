@@ -1,10 +1,6 @@
-
-
-export default loginform
-
 import React from 'react'
 
-export const loginform = () => {
+function Loginform() {
   return (
     <div class="flex flex-column w-3/12 h-full mt-64 ml-32 bg-[#FAFFFD] shadow-lg border rounded-xl"> 
          <form class="p-12 font-base">
@@ -17,3 +13,5 @@ export const loginform = () => {
      </div>
   )
 }
+
+export default Loginform;
