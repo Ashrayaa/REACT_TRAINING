@@ -1,8 +1,1 @@
-
-Go directly to the result 👇
-['REACT PROJECTS']()👩‍💻
-
-React projects 
-1. ['A card'](https://imaginative-panda-9e45d5.netlify.app/card.js)
-2. ['Sign up Page'](https://imaginative-panda-9e45d5.netlify.app/signup.js)
-3. ['Login Page'](https://imaginative-panda-9e45d5.netlify.app/login.js)
+Go directly [React projects](https://63351275bad95c34b2cf6b98--fastidious-brigadeiros-8c742d.netlify.app/)
