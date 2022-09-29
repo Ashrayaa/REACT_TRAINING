@@ -18,9 +18,10 @@ function signup() {
           type="text/css"
         ></link>
       </Head>
-      
       <Signupleft/>
+     
       <Signupform />
+    
       </div>
   );
 }
