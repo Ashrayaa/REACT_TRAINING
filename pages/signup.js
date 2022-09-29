@@ -1,8 +1,9 @@
-import Image from "next/image";
+
 import React from "react";
 import Login from "/public/loginimage.png";
 import Head from "next/head";
-import Signupform from "/pages/components/Signupform";
+import Signupform from "../src/components/Signup/Signupform";
+import Signupleft from "../src/components/Signup/Signupleft";
 
 function signup() {
   return (
@@ -17,14 +18,10 @@ function signup() {
           type="text/css"
         ></link>
       </Head>
-
-      {/* the left side */}
-
-      <div class="w-7/12 h-screen m-0 pt-32 p-32 bg-[#00C285]">
-        <Image src={Login} />
+      
+      <Signupleft/>
+      <Signupform />
       </div>
-     <Signupform />
-    </div>
   );
 }
 

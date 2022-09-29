@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Loginform() {
+function Loginform(){
   return (
     <div class="flex flex-column w-3/12 h-full mt-64 ml-32 bg-[#FAFFFD] shadow-lg border rounded-xl"> 
          <form class="p-12 font-base">

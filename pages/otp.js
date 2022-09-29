@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import otpimg from "/public/girl.png";
 import Head from "next/head";
-import Verifyotpform from "/pages/components/Verifyotpform"
+import Verifyotpform from "../src/components/Otp/Verifyotpform"
+import Otpleft from "../src/components/Otp/Otpleft";
 
 function otp() {
   return (
@@ -19,9 +20,7 @@ function otp() {
       </Head>
 
       {/* the left side */}
-      <div class="w-7/12 h-screen m-0 pt-52 p-32 bg-[#DA85A0]">
-        <Image src={otpimg} />
-      </div>
+    <Otpleft/>
 
       {/* the right side */}
 

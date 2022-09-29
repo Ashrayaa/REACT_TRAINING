@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import Login from '/public/loginimage.png'
-import Camila from '/public/camila.png'
 import Head from 'next/head'
  
 function card() {

@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import Login from "/public/loginimage.png";
 import Head from "next/head";
-import Loginform from "/pages/components/Loginform";
+import Loginform from "../src/components/Login/Loginform";
+import Loginleft from "../src/components/Login/Loginleft";
 
 function login() {
   return (
@@ -17,9 +18,7 @@ function login() {
           type="text/css"
         ></link>
       </Head>
-      <div className=" w-7/12 h-screen m-0 pt-32 p-32 bg-[#F4BA58] ">
-        <Image src={Login} />
-      </div>
+      <Loginleft />
 
       <Loginform />
     </div>
