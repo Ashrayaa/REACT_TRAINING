@@ -4,8 +4,8 @@ import Login from "/public/loginimage.png";
 
 function Signupleft(){
     return(
-        <div class="w-7/12 h-screen m-0 pt-32 p-32 bg-[#00C285]">
-        <Image src={Login} />
+        <div className="flex flex-col justify-center p-16 bg-[#00C285]">
+        <Image className="sm:object-contain" src={Login} />
       </div>
   
     

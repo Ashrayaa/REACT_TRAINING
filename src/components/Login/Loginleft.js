@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Loginleft() {
   return (
-    <div class=" w-7/12 h-screen m-0 pt-32 p-32 bg-[#F4BA58]">
+    <div className=" lg:w-12/12 lg:h-screen lg:m-0 lg:pt-32 lg:p-32 flex flex-col justify-center p-16 bg-[#F4BA58] ">
       <Image src={Login} />
     </div>
   );

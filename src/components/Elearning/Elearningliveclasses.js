@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Elearningliveclasses = () =>{
+export const ElearningliveclassNamee = () =>{
     return(
         <div>
             
