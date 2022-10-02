@@ -16,11 +16,11 @@ export default function Home() {
 
       <main className="p-8 w-full h-screen flex flex-column justify-center bg-lime-300">
       <div className="flex flex-col bg-white w-4/5 h-5/6 shadow-xl rounded-lg p-8 m-12 justify-center align-middle items-center">
-        <h1 className="leading-tight text-6xl font-semibold p-12">
+        <h1 className="leading-tight lg:text-6xl font-semibold lg:p-12 p-8">
          My React Projects
         </h1>
 
-        <div className=" flex flex-col m-4 p-6">
+        <div className=" grid grid-rows-5 grid-flow-col gap-1">
         <button type="button" className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><Link href="/signup">Signup Page</Link></button>
         <button type="button" className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><Link href="/login">Login Page</Link></button>
         <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><Link href="/otp">Verify OTP Page</Link></button>

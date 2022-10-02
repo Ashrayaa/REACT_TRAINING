@@ -7,7 +7,7 @@ import Otpleft from "../src/components/Otp/Otpleft";
 
 function otp() {
   return (
-    <div className="flex flex-row w-full bg-white-900">
+    <div className="grid grid-row-2 md:grid-cols-2 h-screen">
       <Head>
         <title>Verify OTP</title>
         <meta name="description" content="Verify OTP" />

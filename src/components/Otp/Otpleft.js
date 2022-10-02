@@ -4,7 +4,7 @@ import otpimg from "/public/girl.png";
 
 function Otpleft() {
     return(
-        <div className="w-7/12 h-screen m-0 pt-52 p-32 bg-[#DA85A0]">
+        <div className=" lg:w-12/12 lg:h-screen lg:m-0 lg:p-16 flex flex-col justify-center p-12 bg-[#DA85A0]">
         <Image src={otpimg} />
       </div>
     )

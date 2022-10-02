@@ -2,7 +2,7 @@ import React from "react";
 
 function Verifyotpform(){
     return(
-        <div className="flex flex-column w-3/12 h-full mt-64 ml-32 bg-[#FAFFFD] shadow-lg border rounded-xl">
+        <div className="flex flex-column justify-center align-middle lg:w-6/12 lg:h-3/6 lg:m-52 md:h-2/5 md:mt-72 bg-[#FAFFFD] m-4 shadow-lg border rounded-xl">
         <form className="p-12 font-base">
           <h1 className="w-62 h-12 font-semibold font-base font-montserrat text-3xl">
             Verify OTP
@@ -41,10 +41,10 @@ function Verifyotpform(){
 
           <p className="font-osans font-bold py-4">00:45</p>
 
-          <button className="font-base font-bold text-lg border-2 bg-[#00C285] text-white w-80 h-14 rounded-lg">
+          <button className="font-base font-bold text-lg border-2 lg:mt-4 bg-[#00C285] text-white w-80 h-14 rounded-lg">
             Login
           </button>
-          <p className="font-base text-center font-semibold md:py-2">
+          <p className="font-base text-center font-semibold lg:mt-8">
             {" "}
             <a href="">Resent OTP</a>
           </p>
