@@ -1,1 +1,1 @@
-Go directly [React projects](https://6335a72821d94f000915c467--react-training-ashraya.netlify.app/)
+Go directly to my [React projects](https://6339a1adc51f17656b19d057--react-training-ashraya.netlify.app/)
